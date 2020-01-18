@@ -1,0 +1,11 @@
+Pythonでかくとこんなイメージ
+txt.split("\t")[0]
+
+-d で区切り文字を指定　デフォルトで"\t(tab)"
+-f でなん列目(の塊)をとるか指定
+   1スタート 0ではない
+
+// 1列目だけ
+cut -f 1  hightemp.txt  > col1.txt
+// 2列目だけ
+cut -f 2  hightemp.txt  > col2.txt

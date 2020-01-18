@@ -1,0 +1,2 @@
+# 3カラム目を逆順ソート
+cut -f 3 hightemp.txt | sort -r

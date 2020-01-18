@@ -1,0 +1,2 @@
+// hightemp.txtの"\t"を" "に置換しhightemp2.txtに出力
+$ tr "\t" " " < hightemp.txt > hightemp2.txt 

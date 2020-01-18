@@ -1,0 +1,2 @@
+-l n n行ごとにファイルの中身を分割して"split-"で始まるファイルで保存
+split -l 5 hightemp.txt split-

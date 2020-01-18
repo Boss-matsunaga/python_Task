@@ -1,0 +1,2 @@
+1カラム目をとってソートし、uniqをかける、そして再度逆順にソート
+cut -f 1 hightemp.txt | sort | uniq -c | sort -r

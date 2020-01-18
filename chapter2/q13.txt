@@ -1,0 +1,2 @@
+// col1.txtとcol2.txtを結合
+paste col1.txt col2.txt > marge12.txt
