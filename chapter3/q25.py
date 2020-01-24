@@ -1,5 +1,6 @@
 import re
 
+
 def main():
     ans_dict = {}
     with open("jawiki-uk.txt", "r") as f:

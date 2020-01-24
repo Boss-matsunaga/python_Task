@@ -1,5 +1,6 @@
 import re
 
+
 def main():
     with open("jawiki-uk.txt", "r") as f:
         uk_data = f.read().split("\n")

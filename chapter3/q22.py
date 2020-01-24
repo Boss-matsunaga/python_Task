@@ -1,5 +1,6 @@
 import re
 
+
 def main():
     with open("jawiki-uk.txt", "r") as f:
         uk_data = f.read().split("\n")
@@ -7,7 +8,7 @@ def main():
         if "Category" not in line:
             continue
         matchstr = re.sub(r"[\|\*\]]", "", line.split(":")[1])
-        if  matchstr:
+        if matchstr:
             print(matchstr)
 
 
